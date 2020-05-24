@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    padding: 60px 40px;
+    background-color: #EFF6FF;
+
+}
+
+.left{
+    background-image: url(img/bg.jpg);
+    width: 50%;
+}
+
+.logo{
+    width: 135px;
+    margin: 42px;
+}
+
+.right{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+
+h1{
+    color: #255A9B ;
+    margin-top: 110px;
+    margin-bottom  : 15px;
+}
+
+.header__caption{
+    margin-bottom: 55px;
+}
+
+.btn{
+	display: flex;
+    justify-content: space-between;
+}
+
+.btn__link{
+    background-color: #255A9B;
+    display: flex;
+    justify-content: left;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.btn__svg{
+    width: 50px;
+    padding: 0px 15px;
+}
+
+.btn__text{
+    color: white;
+}
+
+.btn__link_in{
+    background-color: #0076B6;
+}
+
+.or{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.left__line, .right__line{
+    color: green;
+    width: 100px;
+    
+}
+
+.left__line{
+    margin-right: 5px;
+}
+
+.right__line{
+    margin-left: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.input__register{
+    width: 240px;
+    height: 55px;
+}
+
+.investor{
+    color:  #255A9B;
+}
+
+h2{
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
+
+.investor__description{
+    margin-bottom: 50px;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 17px;
+}
+
+span{
+    font-size: 8px;
+    color: grey;
+    padding: 1px 6px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.caption{
+    padding: 10px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0 0 10px grey;
+    border-radius: 5px;
+    color: grey;
+    margin-bottom: 45px;
+}
+
+.checkbox{
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.terms{
+    color: #3698FB;
+}
+
+
+.submit{
+    padding: 15px 50px;
+    background-color: #3698FB;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 90px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
